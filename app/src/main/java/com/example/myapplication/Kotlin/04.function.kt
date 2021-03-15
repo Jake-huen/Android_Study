@@ -34,7 +34,7 @@ fun plusMany(vararg numbers: Int) {
     for (number in numbers){
         println(number)
     }
-}
+
 
 fun main(array: Array<String>) {
     plusMany(1,2,3)
