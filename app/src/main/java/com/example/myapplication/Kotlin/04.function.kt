@@ -31,10 +31,10 @@ fun plusShort(first: Int, second: Int) = first + second
 
 // - 가변인자를 갖는 함수 선언하는 방법
 fun plusMany(vararg numbers: Int) {
-    for (number in numbers){
+    for (number in numbers) {
         println(number)
     }
-
+}
 
 fun main(array: Array<String>) {
     plusMany(1,2,3)

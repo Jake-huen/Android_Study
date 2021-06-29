@@ -22,6 +22,5 @@ fun main(array:Array<String>){
     val result = plusThree(1,2,3)
     println(result)
     val result2 = minusThree(10,1,2)
-
 }
 
