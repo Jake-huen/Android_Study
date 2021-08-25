@@ -17,9 +17,8 @@ class Intent1 : AppCompatActivity() {
 //            var intent = Intent(this@Intent1, Intent2::class.java)
 //            // Key, Value 방식 -> Key와 value를 쌍으로 만들어 저장한다. -> Dictionary
 //            intent.putExtra("number",1)
-//            intent.putExtra("number2",2)
+//            intent.putExtra("number2",2)  
 //            startActivity(intent)
-
 
 //            var intent2 = Intent(this@Intent1,Intent2::class.java)
 //            // Apply
