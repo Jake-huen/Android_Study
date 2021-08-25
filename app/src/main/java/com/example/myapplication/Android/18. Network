@@ -35,7 +35,7 @@ JSON Response
 
 JSON Parsing
 -> JSON을 코틀린이나 자바가 이해할 수 있게 변형 하는 과정
-
+Serializable 사용
 Serializable (직렬화)
 -> 자바 시스템 내부에서 사용되는 object를 외부에서 사용할 수 있도록 byte 형태로 데이터 바꾸는 것
 코틀린이나 자바가 이해할 수 있는 틀로 하나씩 넣기
@@ -56,3 +56,7 @@ Request Type                Status Code
 
 Status Code
 - 200번대 -> 처리가 잘 됐다
+
+Library
+- Volly
+- Retrofit

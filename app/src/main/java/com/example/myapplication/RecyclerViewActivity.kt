@@ -20,8 +20,8 @@ class RecyclerViewActivity : AppCompatActivity() {
         setContentView(R.layout.activity_recycler_view)
 
         val carList = ArrayList<CarForList>()
-        for(i in 0 until 100){
-            carList.add(CarForList(""+i+"번째 자동차",""+i+"순위 엔진"))
+        for(i in 0 until 100) {
+            carList.add(CarForList("" + i + "번째 자동차", "" + i + "순위 엔진"))
         }
         val adapter = RecyclerViewAdapter(carList, LayoutInflater.from(this@RecyclerViewActivity))
         recycler_view.adapter=adapter
@@ -69,7 +69,7 @@ class RecyclerViewAdapter(
 //1. onCreateViewHolder에서 view를 만든것을 viewholder에 넣어준다(아이템 하나씩)
 //2. viewholder에서 init으로 carname, carengine만 설정
 //3. onBindViewHolder에서 setText로 내용 설정
-
+//
 // ViewHolder : 뷰객체를 기억하고 있을 객체
 // Adapter : 모든 아이템이 담긴 리스트를 RecyclerView에 Binding 시켜주기 위한 사전 작업이 이루어 지는 객체
 // LayoutManager: 스크롤 위아래로 할지, 좌우로 할지 이런거 결정
