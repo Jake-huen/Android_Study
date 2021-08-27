@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FragmentActivity"
+    tools:context=".android_study.FragmentActivity"
     android:orientation="vertical">
 
     <TextView
@@ -15,7 +15,7 @@
 
 <!--    <fragment-->
 <!--        android:id="@+id/fragment_one"-->
-<!--        android:name="com.example.myapplication.FragmentOne"-->
+<!--        android:name="com.example.myapplication.android_study.FragmentOne"-->
 <!--        android:layout_width="match_parent"-->
 <!--        android:layout_height="300dp"/>-->
 

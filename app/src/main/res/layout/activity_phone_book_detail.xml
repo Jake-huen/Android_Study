@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#5E5353"
-    tools:context=".PhoneBookDetailActivity">
+    tools:context=".android_study.PhoneBookDetailActivity">
     <ImageView
         android:id="@+id/back"
         android:src="@drawable/menu_icon"
